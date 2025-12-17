@@ -21,9 +21,7 @@ function App() {
     <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100">
       <header className="bg-white shadow-md">
         <div className="container mx-auto px-4 py-6">
-          <h1 className="text-4xl font-bold text-indigo-600 mb-2">
-            🌍Travex
-          </h1>
+          <h1 className="text-4xl font-bold text-indigo-600 mb-2">🌍Travex</h1>
           <p className="text-gray-600">Plan your perfect trip with ease</p>
         </div>
       </header>
