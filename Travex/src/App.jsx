@@ -25,8 +25,7 @@ function App() {
           <p className="text-gray-600">Plan your perfect trip with ease</p>
         </div>
       </header>
-
-      <nav className="bg-white border-b">
+  <nav className="bg-white border-b">
         <div className="container mx-auto px-4">
           <div className="flex space-x-4">
             <button
@@ -36,8 +35,7 @@ function App() {
                   ? 'text-indigo-600 border-b-2 border-indigo-600'
                   : 'text-gray-600 hover:text-indigo-600'
               }`}
-            >
-              Search Destinations
+            >Search Destinations
             </button>
             <button
               onClick={() => setActiveTab('itinerary')}
