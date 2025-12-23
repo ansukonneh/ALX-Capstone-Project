@@ -17,7 +17,7 @@ const SearchBar = ({ onSearch }) => {
     setError(null)
 
     try {
-
+      const { searchDestinations } = await import('../services/amadeusApi')
       const result = await searchDestinations(searchTerm)
       onSearch(result.data || [])
     } catch (err) {
@@ -36,7 +36,7 @@ const SearchBar = ({ onSearch }) => {
             type="text"
             value={searchTerm}
             onChange={(e) => setSearchTerm(e.target.value)}
-            placeholder="Search for a destination (e.g., Paris, Spain, New York)..."
+            placeholder="Search for a destination (e.g., Paris, Tokyo, New York)..."
             className="flex-1 px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent"
             disabled={isLoading}
           />

@@ -1,4 +1,6 @@
 import { useState, useEffect } from 'react'
+import { getFlightOffers, getHotelOffers } from '../services/amadeusApi'
+import { getWeather, getWeatherForecast } from '../services/weatherApi'
 
 const DestinationDetails = ({ destination, onBack, onAddToItinerary }) => {
   const [flights, setFlights] = useState([])
@@ -161,7 +163,7 @@ const DestinationDetails = ({ destination, onBack, onAddToItinerary }) => {
             </div>
           </div>
         ) : (
-          <p className="text-gray-600">Weather data not available.</p>
+          <p className="text-gray-600">Weather data not available. Please configure OpenWeatherMap API key.</p>
         )}
       </div>
 

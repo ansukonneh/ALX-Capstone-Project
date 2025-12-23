@@ -143,7 +143,7 @@ const ItineraryPlanner = ({ itineraries, onUpdateItineraries, pendingItem, onPen
             type="text"
             value={newItineraryName}
             onChange={(e) => setNewItineraryName(e.target.value)}
-            placeholder="Enter itinerary name (e.g., Travel With Me)"
+            placeholder="Enter itinerary name (e.g., Summer Europe Trip)"
             className="flex-1 px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500"
             onKeyPress={(e) => e.key === 'Enter' && createItinerary()}
           />

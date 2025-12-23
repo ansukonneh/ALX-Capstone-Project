@@ -21,11 +21,14 @@ function App() {
     <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100">
       <header className="bg-white shadow-md">
         <div className="container mx-auto px-4 py-6">
-          <h1 className="text-4xl font-bold text-indigo-600 mb-2">🌍Travex</h1>
+          <h1 className="text-4xl font-bold text-indigo-600 mb-2">
+            Travex
+          </h1>
           <p className="text-gray-600">Plan your perfect trip with ease</p>
         </div>
       </header>
-  <nav className="bg-white border-b">
+
+      <nav className="bg-white border-b">
         <div className="container mx-auto px-4">
           <div className="flex space-x-4">
             <button
@@ -35,7 +38,8 @@ function App() {
                   ? 'text-indigo-600 border-b-2 border-indigo-600'
                   : 'text-gray-600 hover:text-indigo-600'
               }`}
-            >Search Destinations
+            >
+              Search Destinations
             </button>
             <button
               onClick={() => setActiveTab('itinerary')}
@@ -83,7 +87,7 @@ function App() {
 
       <footer className="bg-white border-t mt-12">
         <div className="container mx-auto px-4 py-6 text-center text-gray-600">
-          <p>© 2025 Travex. Developed as requirement for my ALX capstone</p>
+          <p>© 2025 Travex. Built by Ansu M. Konneh as part of my requirement for my capston project</p>
         </div>
       </footer>
     </div>

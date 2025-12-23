@@ -1,14 +1,14 @@
 # ALX-Capstone-Project
-# Travel Planner Application
+# travex Planner Application
 
-A modern travel planning application built with React, Vite, and Tailwind CSS. Plan your perfect trip by searching destinations, viewing flight offers, hotel accommodations, and creating personalized itineraries.
+A modern travex planning application built with React, Vite, and Tailwind CSS. Plan your perfect trip by searching destinations, viewing flight offers, hotel accommodations, and creating personalized itineraries.
 
 ## Features
 
 - 🔍 Search destinations by city or country
 - ✈️ View flight offers and prices
 - 🏨 Browse hotel accommodations
-- 📅 Create and manage travel itineraries
+- 📅 Create and manage travex itineraries
 - 🌤️ Weather information for destinations
 - 📱 Fully responsive design
 

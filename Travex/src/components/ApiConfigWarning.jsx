@@ -23,7 +23,6 @@ const ApiConfigWarning = () => {
         <div className="ml-3">
           <p className="text-sm text-yellow-700">
             <strong>API Configuration Required:</strong> To use this application, please configure your API keys in a <code className="bg-yellow-100 px-1 rounded">.env</code> file. 
-            See the README for instructions on obtaining API keys from Amadeus and OpenWeatherMap.
           </p>
         </div>
         <div className="ml-auto pl-3">

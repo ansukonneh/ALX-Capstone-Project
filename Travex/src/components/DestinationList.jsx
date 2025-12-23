@@ -3,7 +3,7 @@ const DestinationList = ({ destinations, onSelectDestination }) => {
     return (
       <div className="text-center py-12">
         <p className="text-gray-600 text-lg">
-          Search for a destination to get started! Try searching for cities like "Paris", "Madrid", or "New York".
+          Search for a destination to get started! Try searching for cities like "Paris", "Tokyo", or "New York".
         </p>
       </div>
     )
